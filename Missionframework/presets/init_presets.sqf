@@ -39,6 +39,7 @@ switch (KP_liberation_preset_blufor) do {
     case 28: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\sfp_wdl.sqf";};
     case 29: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\sfp_des.sqf";};
     case 30: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\enoch.sqf";};
+    case 31: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\lrpg.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\blufor\custom.sqf";};
 };
 
@@ -313,7 +314,7 @@ KPLIB_typeAirClasses   = +KPLIB_b_air_classes;
 } forEach (KPLIB_b_support_classes + [toLower huron_typename]);
 
 // Military alphabet used for FOBs and convois
-military_alphabet = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform", "Victor", "Whiskey", "X-Ray", "Yankee", "Zulu"];
+military_alphabet = ["Anal", "Butthole", "Capybara", "Dickhead", "Erection", "Fuck", "Gayboi", "Hysterectomy", "Inshallah", "Jerkoff", "Kick", "Ligma", "Moosklez", "Nonce", "Oof", "Penis", "Qween", "Retard", "Scunthorpe", "Tiddiez", "Uganda", "Vagana", "Wanker", "XXX", "Yucky", "Zigger"];
 
 // Misc variables
 markers_reset = [99999,99999,0];
